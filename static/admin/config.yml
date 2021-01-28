@@ -1,3 +1,7 @@
+publish_mode: editorial_workflow
+site_url: https://bureterumonstpic.netlify.app/
+display_url: https://bureterumonstpic.netlify.app/
+
 backend:
   name: git-gateway
   branch: master
