@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: モンスト ブレテル運極写真館
+title: モンスト ブレてる運極写真館
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
