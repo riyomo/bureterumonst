@@ -11,7 +11,6 @@ module.exports = {
         trackingIds: "G-5S7953L9NC",
         pluginConfig: {
           head: true,
-          anonymize: true,
         },
       },
     },
