@@ -5,6 +5,16 @@ module.exports = {
       'モンストの運極写真を、わざとブレてる状態でスクリーンショットし公開しているブログです。',
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: "G-5S7953L9NC",
+        pluginConfig: {
+          head: true,
+          anonymize: true,
+        },
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
@@ -78,14 +88,5 @@ module.exports = {
       },
     }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: 'G-5S7953L9NC',
-        pluginConfig: {
-          head: true,
-        },
-      },
-    },
   ],
 }
