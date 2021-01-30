@@ -5,15 +5,6 @@ module.exports = {
       'モンストの運極写真を、わざとブレてる状態でスクリーンショットし公開しているブログです。',
   },
   plugins: [
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: "G-5S7953L9NC",
-        pluginConfig: {
-          head: true,
-        },
-      },
-    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
