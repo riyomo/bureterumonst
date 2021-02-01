@@ -82,7 +82,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value:url || value //urlが設定されていなかったらデフォルトのslug
+      value: url || value //urlが設定されていなかったらデフォルトのslug
     })
   }
 }
