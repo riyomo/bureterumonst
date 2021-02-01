@@ -56,7 +56,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
-
+  const image = `https://bureterumonstpic.netlify.app/img/${post.frontmatter.featuredimage.relativePath}`;
   return (
     <Layout>
       <BlogPostTemplate
@@ -70,6 +70,10 @@ const BlogPost = ({ data }) => {
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta
+          property="og:image"
+          content={image}
+        />
           </Helmet>
         }
         tags={post.frontmatter.tags}
@@ -97,6 +101,9 @@ export const pageQuery = graphql`
         title
         description
         tags
+        featuredimage {
+          relativePath
+        }
       }
     }
   }
