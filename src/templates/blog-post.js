@@ -71,9 +71,17 @@ const BlogPost = ({ data }) => {
               content={`${post.frontmatter.description}`}
             />
             <meta
-          property="og:image"
-          content={image}
-        />
+              property="og:image"
+              content={image}
+            />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="@bureterumonst" />
+            <meta name="twitter:player" content="@bureterumonst" />
+            <meta
+              property="twitter:image"
+              content={image}
+            />
+
           </Helmet>
         }
         tags={post.frontmatter.tags}
