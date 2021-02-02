@@ -3,7 +3,7 @@ module.exports = {
     title: 'モンスト ブレてる運極写真館ブログ',
     description:
       'モンストの運極写真を、わざとブレてる状態でスクリーンショットし公開しているブログです。',
-    siteUrl: "https://bureterumonstpic.netlify.app/"
+    siteUrl: "https://brtrmnst.net/"
   },
   plugins: [
     {

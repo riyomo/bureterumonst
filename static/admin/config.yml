@@ -1,6 +1,6 @@
 publish_mode: editorial_workflow
-site_url: https://bureterumonstpic.netlify.app/
-display_url: https://bureterumonstpic.netlify.app/
+site_url: https://brtrmnst.net/
+display_url: https://brtrmnst.net/
 
 backend:
   name: git-gateway

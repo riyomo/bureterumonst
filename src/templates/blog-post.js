@@ -56,7 +56,7 @@ BlogPostTemplate.propTypes = {
 
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
-  const image = `https://bureterumonstpic.netlify.app/img/${post.frontmatter.featuredimage.relativePath}`;
+  const image = `https://brtrmnst.net/img/${post.frontmatter.featuredimage.relativePath}`;
   return (
     <Layout>
       <BlogPostTemplate
